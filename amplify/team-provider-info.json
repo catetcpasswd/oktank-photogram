@@ -10,6 +10,11 @@
       "StackName": "amplify-dabit3postgram-dev-92220",
       "StackId": "arn:aws:cloudformation:us-west-2:116941265689:stack/amplify-dabit3postgram-dev-92220/06aa3560-4825-11eb-b5e5-0a35f8834a23",
       "AmplifyAppId": "d27yfal6gkhzbu"
+    },
+    "categories": {
+      "auth": {
+        "dabit3postgram1db8823a": {}
+      }
     }
   }
 }
