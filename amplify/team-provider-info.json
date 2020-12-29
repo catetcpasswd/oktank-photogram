@@ -1,20 +1,26 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-dabit3postgram-dev-92220-authRole",
-      "UnauthRoleArn": "arn:aws:iam::116941265689:role/amplify-dabit3postgram-dev-92220-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::116941265689:role/amplify-dabit3postgram-dev-92220-authRole",
-      "Region": "us-west-2",
-      "DeploymentBucketName": "amplify-dabit3postgram-dev-92220-deployment",
-      "UnauthRoleName": "amplify-dabit3postgram-dev-92220-unauthRole",
-      "StackName": "amplify-dabit3postgram-dev-92220",
-      "StackId": "arn:aws:cloudformation:us-west-2:116941265689:stack/amplify-dabit3postgram-dev-92220/06aa3560-4825-11eb-b5e5-0a35f8834a23",
-      "AmplifyAppId": "d27yfal6gkhzbu"
-    },
-    "categories": {
-      "auth": {
-        "dabit3postgram1db8823a": {}
-      }
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-dabit3postgram-dev-92220-authRole",
+            "UnauthRoleArn": "arn:aws:iam::116941265689:role/amplify-dabit3postgram-dev-92220-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::116941265689:role/amplify-dabit3postgram-dev-92220-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "amplify-dabit3postgram-dev-92220-deployment",
+            "UnauthRoleName": "amplify-dabit3postgram-dev-92220-unauthRole",
+            "StackName": "amplify-dabit3postgram-dev-92220",
+            "StackId": "arn:aws:cloudformation:us-west-2:116941265689:stack/amplify-dabit3postgram-dev-92220/06aa3560-4825-11eb-b5e5-0a35f8834a23",
+            "AmplifyAppId": "d27yfal6gkhzbu"
+        },
+        "categories": {
+            "auth": {
+                "dabit3postgram1db8823a": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d27yfal6gkhzbu",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
